@@ -5,6 +5,6 @@ module company.name.blender {
     requires java.desktop;
 
 
-    opens company.name.blender to javafx.fxml;
-    exports company.name.blender;
+    exports super_puper_mega_programmisty.blender.app;
+    opens super_puper_mega_programmisty.blender.app to javafx.fxml;
 }
